@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Form</title>
+</head>
+<style>
+.frm1{
+    background-color: wheat;
+}
+</style>
+<body>
+    <h1 class="text-center" style="color: rgb(101, 101, 153)"><u> Registration Form</u></h1>
+
+    <form class="frm1">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="form-group">
+                      <i class="fa fa-user-circle-o" aria-hidden="true"></i>   <label for="Fname">FirstName</label>
+                        <input type="text" class="form-control" id="Fname" placeholder="First Name" required>
+                        <br>
+
+
+                      <i class="fa fa-user-circle-o" aria-hidden="true"></i>   <label for="name">LastName</label>
+                        <input type="text" class="form-control" id="Lname" placeholder="Last Name" required>
+                        <br>
+
+                       <i class="fa fa-envelope-open-o" aria-hidden="true"></i> <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="123@gmail.com" required>
+                        <br>
+
+                       <i class="fa fa-phone" aria-hidden="true"></i> <label for="phone">PhoneNumber</label>
+                        <input type="number" class="form-control" id="phoneN" placeholder="" required>
+                        <br>
+
+                        <h4>Gender</h4>
+                        <div>
+                            <input type="radio" aria-label="Male">Male
+                            <input type="radio" aria-label="Female">Female
+                        </div>
+                        <br>
+
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Terms and condition
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+
+                       <i class="fa fa-birthday-cake" aria-hidden="true"></i> <label for="date">Date of Birth</label>
+                        <input type="date" class="form-control" id="Fname" placeholder="dd/mm/yy" required>
+                        <br>
+
+                       <i class="fa fa-language" aria-hidden="true"></i> <h6>Programming Languages</h6>
+                        <div>
+                            <input type="radio" aria-label="PHP">PHP
+                            <input type="radio" aria-label="GO">Go
+                            <input type="radio" aria-label="HTML">HTML
+                            <input type="radio" aria-label="GO">JQuery
+                            <input type="radio" aria-label="JS">JS
+                            <input type="radio" aria-label="CSS">CSS
+                        </div>
+                        <br>
+
+                        <h6>Hobbies</h6>
+                        <select class="custom-select custom-select-md mb-3">
+                            <option selected>Choose</option>
+                            <option value="1">Coding</option>
+                            <option value="2">Travelling</option>
+                            <option value="3">Dancing</option>
+                            <option value="4">Running</option>
+                            <option value="5">Lifting</option>
+                        </select>
+                        <br>
+
+                        <label for="pass">Password</label>
+                        <input type="password" class="form-control" id="password" required>
+                        <br>
+
+                        <label for="pass">Retype Password</label>
+                        <input type="password" class="form-control" id="password" required>
+
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success btn-lg btn-block">Register</button>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
